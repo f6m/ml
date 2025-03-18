@@ -31,6 +31,8 @@ pylab.show()
 import plotly.express as px
 fig = px.box(df, y="oilproduction")
 fig.show()
+g = boxplot(data = df, x = 'oilproduction')
+
 
 #Realizamos la prueba estadística de Shapiro-Wilk para normalidad (test)
 alpha = 0.05 #Nivel de significancia para la prueba
